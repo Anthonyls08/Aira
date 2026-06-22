@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aira · Iniciar sesión</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="auth">
+
+    <!-- Panel lateral -->
+    <aside class="auth-side">
+      <a href="index.html" class="logo"><span class="dot"></span> Aira</a>
+      <div>
+        <h2>Tu ángel guardián respiratorio, ahora en una sola app.</h2>
+        <p>Monitorea, agenda y aprende desde un mismo lugar. Cada respiración cuenta.</p>
+        <ul class="feature-list">
+          <li>💙 Monitoreo de SpO₂ y frecuencia cardíaca 24/7</li>
+          <li>🛒 Marketplace de salud con precios transparentes</li>
+          <li>📋 Diario clínico, medicación y planes de tratamiento</li>
+          <li>💬 Comunidad y chat con tu médico tratante</li>
+        </ul>
+      </div>
+      <div class="mini">Proyecto académico · UPC · IHC y Tecnologías · 2026</div>
+    </aside>
+
+    <!-- Formulario -->
+    <main class="auth-main">
+      <div class="auth-box">
+        <div class="auth-tabs">
+          <a href="login.html" class="active">Iniciar sesión</a>
+          <a href="register.html">Registrarse</a>
+        </div>
+
+        <h1>Bienvenido de nuevo</h1>
+        <p class="sub">Inicia sesión para entrar a tu panel.</p>
+
+        <form data-demo data-go="app/inicio.html" data-msg="Sesión iniciada (demo)">
+          <div class="field">
+            <label>Correo electrónico</label>
+            <input type="email" placeholder="tucorreo@ejemplo.com" required />
+          </div>
+          <div class="field">
+            <label>Contraseña</label>
+            <input type="password" placeholder="••••••••" required />
+          </div>
+
+          <div class="forgot">
+            <label class="check-row" style="margin:0;">
+              <input type="checkbox" /> Recordarme
+            </label>
+            <a href="#">¿Olvidaste tu contraseña?</a>
+          </div>
+
+          <button class="btn btn-primary btn-block" type="submit">Entrar a Aira</button>
+        </form>
+
+        <p class="form-foot">¿Aún no tienes cuenta? <a href="register.html">Regístrate gratis</a></p>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

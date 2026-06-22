@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aira · Crear cuenta</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="auth">
+
+    <!-- Panel lateral -->
+    <aside class="auth-side">
+      <a href="index.html" class="logo"><span class="dot"></span> Aira</a>
+      <div>
+        <h2>Crea tu cuenta y cuida cada respiración de tu familia.</h2>
+        <p>Únete a Aira y empieza a monitorear, agendar y aprender desde un solo lugar.</p>
+        <ul class="feature-list">
+          <li>💙 Alertas tempranas antes de una crisis</li>
+          <li>👨‍👩‍👧 Perfiles para pacientes y cuidadores</li>
+          <li>🩺 Reserva con neumólogos y laboratorios</li>
+          <li>📈 Reportes semanales automáticos</li>
+        </ul>
+      </div>
+      <div class="mini">Proyecto académico · UPC · IHC y Tecnologías · 2026</div>
+    </aside>
+
+    <!-- Formulario -->
+    <main class="auth-main">
+      <div class="auth-box">
+        <div class="auth-tabs">
+          <a href="login.html">Iniciar sesión</a>
+          <a href="register.html" class="active">Registrarse</a>
+        </div>
+
+        <h1>Crea tu cuenta Aira</h1>
+        <p class="sub">Regístrate para cuidar cada respiración de tu familia.</p>
+
+        <form data-demo data-go="app/inicio.html" data-msg="Cuenta creada (demo)">
+          <div class="field">
+            <label>Nombre completo</label>
+            <input type="text" placeholder="Tu nombre" required />
+          </div>
+          <div class="field">
+            <label>Correo electrónico</label>
+            <input type="email" placeholder="tucorreo@ejemplo.com" required />
+          </div>
+          <div class="field">
+            <label>Teléfono</label>
+            <input type="tel" placeholder="+51 999 999 999" />
+          </div>
+          <div class="field">
+            <label>Contraseña</label>
+            <input type="password" placeholder="Mínimo 8 caracteres" required />
+          </div>
+          <div class="field">
+            <label>Rol</label>
+            <select>
+              <option>Paciente</option>
+              <option>Cuidador / Familiar</option>
+              <option>Profesional de salud</option>
+            </select>
+          </div>
+
+          <label class="check-row"><input type="checkbox" required /> Acepto los términos y la política de privacidad</label>
+
+          <button class="btn btn-primary btn-block" type="submit">Crear cuenta y entrar</button>
+        </form>
+
+        <p class="form-foot">¿Ya tienes cuenta? <a href="login.html">Inicia sesión</a></p>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
